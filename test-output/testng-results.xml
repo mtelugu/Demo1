@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-16T11:06:17 IST" name="Default suite" finished-at="2021-01-16T11:07:53 IST" duration-ms="95751">
+    <groups>
+      <group name="bonding">
+        <method signature="LoginTest.Validateloginwithpasswordblank()[pri:0, instance:pom.LoginTest@3c0be339]" name="Validateloginwithpasswordblank" class="pom.LoginTest"/>
+      </group> <!-- bonding -->
+      <group name="strong_ties">
+        <method signature="LoginTest.Validateloginwihtblanklogin()[pri:0, instance:pom.LoginTest@3c0be339]" name="Validateloginwihtblanklogin" class="pom.LoginTest"/>
+      </group> <!-- strong_ties -->
+    </groups>
+    <test started-at="2021-01-16T11:06:17 IST" name="Default test" finished-at="2021-01-16T11:07:53 IST" duration-ms="95751">
+      <class name="pom.LoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:17 IST" name="initialize" finished-at="2021-01-16T11:06:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:17 IST" name="launchBrowser" finished-at="2021-01-16T11:06:22 IST" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:22 IST" name="openapp" finished-at="2021-01-16T11:06:27 IST" depends-on-methods="pom.BaseTest.launchBrowser" duration-ms="4883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="Validateloginwihtblanklogin()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:27 IST" name="Validateloginwihtblanklogin" finished-at="2021-01-16T11:06:47 IST" duration-ms="20495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateloginwihtblanklogin -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:47 IST" name="launchBrowser" finished-at="2021-01-16T11:06:51 IST" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:51 IST" name="openapp" finished-at="2021-01-16T11:06:56 IST" depends-on-methods="pom.BaseTest.launchBrowser" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="Validateloginwithblankusername()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:06:56 IST" name="Validateloginwithblankusername" finished-at="2021-01-16T11:07:16 IST" duration-ms="20437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateloginwithblankusername -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:16 IST" name="launchBrowser" finished-at="2021-01-16T11:07:20 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:20 IST" name="openapp" finished-at="2021-01-16T11:07:24 IST" depends-on-methods="pom.BaseTest.launchBrowser" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="ValidateloginwithinvalindCredentials()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:24 IST" name="ValidateloginwithinvalindCredentials" finished-at="2021-01-16T11:07:25 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateloginwithinvalindCredentials -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:25 IST" name="launchBrowser" finished-at="2021-01-16T11:07:29 IST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:29 IST" name="openapp" finished-at="2021-01-16T11:07:33 IST" depends-on-methods="pom.BaseTest.launchBrowser" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="Validateloginwithpasswordblank()[pri:0, instance:pom.LoginTest@3c0be339]" started-at="2021-01-16T11:07:33 IST" name="Validateloginwithpasswordblank" finished-at="2021-01-16T11:07:53 IST" duration-ms="20379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateloginwithpasswordblank -->
+      </class> <!-- pom.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

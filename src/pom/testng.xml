@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+	<suite name = "OrangHRM APP login" >
+		<test name = "Sumclass" >
+		
+		<parameter name = "a" value = "Arjun" />
+			<classes>
+				<class name ="pom.Sumclass" />
+				
+			</classes>
+		</test>
+	</suite>
+	
+	
+	
+	
+	
